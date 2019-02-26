@@ -145,13 +145,13 @@ VOCABULARY = {
     'member_pl' : 'Mitglieder',
     'assignment' : 'Arbeitseinsatz',
     'assignment_pl' : 'Arbeitseinsätze',
-    'share' : 'Anteilschein',
-    'share_pl' : 'Anteilscheine',
-    'subscription' : 'Abo',
-    'subscription_pl' : 'Abos',
-    'co_member' : 'Mitabonnent',
-    'co_member_pl' : 'Mitabonnenten',
-    'price' : 'Betriebsbeitrag',
+    'share' : 'Einlage',
+    'share_pl' : 'Einlagen',
+    'subscription' : 'Ernteanteil',
+    'subscription_pl' : 'Ernteanteile',
+    'co_member' : 'weiteres Mitglied',
+    'co_member_pl' : 'weitere Mitglieder',
+    'price' : 'Monatsbeitrag',
     'member_type' : 'Mitglied',
     'member_type_pl' : 'Mitglieder',
     'depot' : 'Depot',
@@ -164,17 +164,17 @@ ORGANISATION_LONG_NAME = "Gemuesekoop"
 ORGANISATION_ADDRESS = {"name":"Gemuesekoop", 
             "street" : "Widdersdorfer Landstrasse",
             "number" : "103",
-            "zip" : "50823",
+            "zip" : "50859",
             "city" : "Koeln",
             "extra" : "-"}
 ORGANISATION_PHONE =''
 ORGANISATION_BANK_CONNECTION = {"PC" : "-",
-            "IBAN" : "-",
-            "BIC" : "-",
+            "IBAN" : "DE96 4306 0967 4115 6538 00",
+            "BIC" : "GENODEM1GLS",
             "NAME" : "GLS Bank",
             "ESR" : ""}
 INFO_EMAIL = "info@gemuesekoop.de"
-SERVER_URL = "www.gemuesekoop.org"
+SERVER_URL = "www.gemuesekoop.de"
 ADMINPORTAL_NAME = "Gemuesekoop.de"
 ADMINPORTAL_SERVER_URL = "meine.gemuesekoop.de"
 BUSINESS_REGULATIONS = ""
@@ -188,7 +188,7 @@ ACTIVITY_AREA_INFO = ""
 SHARE_PRICE = "90"
 ENABLE_SHARES = True
 BASE_FEE = ""
-CURRENCY = "CHF"
+CURRENCY = "€"
 ASSIGNMENT_UNIT = "ENTITY"
 PROMOTED_JOB_TYPES = []
 PROMOTED_JOBS_AMOUNT = 2
