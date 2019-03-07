@@ -71,7 +71,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'gemuesekoop.wsgi.application'
 
 
-LANGUAGE_CODE = 'de_CH'
+LANGUAGE_CODE = 'de'
 
 SITE_ID = 1
 
@@ -185,7 +185,7 @@ FAVICON = "/static/img/favicono.ico"
 FAQ_DOC = ""
 EXTRA_SUB_INFO = ""
 ACTIVITY_AREA_INFO = ""
-SHARE_PRICE = "90"
+SHARE_PRICE = "400"
 ENABLE_SHARES = True
 BASE_FEE = ""
 CURRENCY = "€"
